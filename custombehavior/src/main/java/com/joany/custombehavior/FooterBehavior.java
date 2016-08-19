@@ -15,6 +15,7 @@ import android.view.ViewPropertyAnimator;
 public class FooterBehavior extends CoordinatorLayout.Behavior {
     private int directionChangeDistance;
 
+    //一定要重写构造函数，CoordinatorLayout源码中parseBehavior函数中直接反射调用这个构造函数
     public FooterBehavior(Context context,AttributeSet attrs){
         super(context,attrs);
     }
