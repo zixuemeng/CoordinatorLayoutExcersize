@@ -1,4 +1,4 @@
-package com.joany.coordinatortest;
+package com.joany.custombehavior;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -16,7 +16,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     private Context context;
     private List<String> list;
 
-    public RecyclerViewAdapter(Context context,List<String> list) {
+    public RecyclerViewAdapter(Context context, List<String> list) {
         this.context = context;
         this.list = list;
     }
